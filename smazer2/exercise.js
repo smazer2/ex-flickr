@@ -34,7 +34,7 @@ exercise.buildHtmlForImages = function(data){
    // console.log(data.photos.photos[0].url_s);
     var imageTags = "";
     
-    data.photos.photo.forEach(function(item){imageTags += "<img src = ' " + item.url_s + "'>"});
+    data.photos.photo.forEach(function(item){imageTags += '<img src=\"' + item.url_s + '\">'});
 
   //  console.log(imageTags);
     return imageTags;
